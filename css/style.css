@@ -1,0 +1,17 @@
+:root {
+  --cor-fundo: #FFFFFF;
+  --cor-texto: #1E2A38;
+  --cor-destaque: #E07A2E;
+  --cor-borda: #D9DDD3;
+  --cor-suave: #F4F5EF;
+}
+.resultado,
+.ok,
+.alerta,
+.erro {
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 6px solid var(--cor-texto);
+  background: var(--cor-suave);
+  white-space: pre-line;
+}

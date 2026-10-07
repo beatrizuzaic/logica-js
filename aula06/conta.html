@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dividir a conta</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <main>
+        <h1>Dividir a conta</h1>
+            <label for="valor">Valor da conta R$:</label>
+            <input type="number" id="valor" step="0.1" min="0">
+            <label for="pessoas">Número de pessoas:</label>
+            <input type="number" id="pessoas" min="1">
+            <button id="calcular">Calcular</button>
+            <p id="resultado" class="resultado">Resultado aparecerá aqui</p>
+    </main>
+    <script src="./js/conta.js"></script>
+</body>
+</html>
