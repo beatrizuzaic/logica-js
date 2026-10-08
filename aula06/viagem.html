@@ -9,7 +9,18 @@
 <body>
     <head>
         <h1>Custo da Viagem</h1>
+        <label for="dist">Distância (Km):</label>
+        <input type="number" id="dist" step="0.1"><br>
+        <label for="consumo">Consumo do carro (Km/l):</label>
+        <input type="number" id="consumo" step="0.1"><br>
+        <label for="preco">Preço do litro (R$):</label>
+        <input type="number" id="preco" step="0.1">
+        
+        <p><button id="calcular">Calcular</button></p>
+        <p id="resultado" class="resultado">O resultado aparecerá aqui.</p>
     </head>
     <script src="./js/viagem.js"></script>
 </body>
 </html>
+
+<!--Quando o consumo é 0 o resultado dá "Infinity"-->
