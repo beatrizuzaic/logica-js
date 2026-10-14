@@ -15,3 +15,8 @@
   background: var(--cor-suave);
   white-space: pre-line;
 }
+.ok     { border-color: #2E7D32; background: #E8F5E9; }
+.alerta { border-color: #F9A825; background: #FFF8E1; }
+.erro   { border-color: #C62828; background: #FFEBEE; }
+
+body {font-family: Arial;}
