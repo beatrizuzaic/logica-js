@@ -20,3 +20,14 @@
 .erro   { border-color: #C62828; background: #FFEBEE; }
 
 body {font-family: Arial;}
+
+button {
+  background-color: var(--cor-destaque);
+  color: #FFFFFF;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;}
+
+button:active{
+  transform:scale(0.95);}
